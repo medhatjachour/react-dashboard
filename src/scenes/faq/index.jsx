@@ -1,10 +1,10 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
 
-const FAQ = () => {
+const Faq = () => {
   return (
-    <div>FAQ</div>
+    <div>Faq</div>
   )
 }
 
-export default FAQ
+export default Faq
