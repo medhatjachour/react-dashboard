@@ -28,9 +28,9 @@ const Item = ({ title, to, icon, selected, setSelected }) => {
       }}
       onClick={() => setSelected(title)}
       icon={icon}
+      component={<Link to={to} />}
     >
       <Typography>{title}</Typography>
-      <Link to={to} />
     </MenuItem>
   );
 };
@@ -59,7 +59,12 @@ const SideBar = () => {
         "& .ps-menu-button.active": {
           color: "#6870fa !important",
         },
-      }}
+        "& .ps-collapsed": {
+        height:"100vh"
+        },
+      }
+      
+    }
     >
       <Sidebar collapsed={isCollapsed}>
         <Menu iconShape="square">
@@ -78,6 +83,7 @@ const SideBar = () => {
                 justifyContent="space-between"
                 alignItems="center"
                 ml="15px"
+                
               >
                 <Typography variant="h3" color={colors.grey[100]}>
                   ADMINIS
