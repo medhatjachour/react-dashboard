@@ -1,10 +1,16 @@
-// eslint-disable-next-line no-unused-vars
-import React from 'react'
+import { Box } from "@mui/material";
+import Header from "../../components/Header";
+import BarChart from "../../components/BarChart";
 
 const Bar = () => {
   return (
-    <div>Bar</div>
-  )
-}
+    <Box m="20px">
+      <Header title="Bar Chart" subtitle="Simple Bar Chart" />
+      <Box height="75vh" sx={{height:"69vh" }}>
+        <BarChart />
+      </Box>
+    </Box>
+  );
+};
 
-export default Bar
+export default Bar;

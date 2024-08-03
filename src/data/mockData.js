@@ -593,6 +593,60 @@ export const mockLineData = [
       },
     ],
   },
+  {
+    id: "EGY",
+    color: tokens("dark").primary[200],
+    data: [
+      {
+        x: "plane",
+        y: 150,
+      },
+      {
+        x: "helicopter",
+        y: 140,
+      },
+      {
+        x: "boat",
+        y: 99,
+      },
+      {
+        x: "train",
+        y: 190,
+      },
+      {
+        x: "subway",
+        y: 222,
+      },
+      {
+        x: "bus",
+        y: 100,
+      },
+      {
+        x: "car",
+        y: 200,
+      },
+      {
+        x: "moto",
+        y: 135,
+      },
+      {
+        x: "bicycle",
+        y: 18,
+      },
+      {
+        x: "horse",
+        y: 250,
+      },
+      {
+        x: "skateboard",
+        y: 100,
+      },
+      {
+        x: "others",
+        y: 99,
+      },
+    ],
+  },
 ];
 
 export const mockGeographyData = [
@@ -630,6 +684,10 @@ export const mockGeographyData = [
   },
   {
     id: "AUT",
+    value: 798526,
+  },
+  {
+    id: "AUS",
     value: 798526,
   },
   {
@@ -685,6 +743,10 @@ export const mockGeographyData = [
     value: 345666,
   },
   {
+    id: "BRA",
+    value: 345666,
+  },
+  {
     id: "BTN",
     value: 649678,
   },
@@ -722,6 +784,10 @@ export const mockGeographyData = [
   },
   {
     id: "COG",
+    value: 498556,
+  },
+  {
+    id: "COD",
     value: 498556,
   },
   {
@@ -774,7 +840,7 @@ export const mockGeographyData = [
   },
   {
     id: "EGY",
-    value: 148475,
+    value: 1148475,
   },
   {
     id: "ERI",
@@ -845,6 +911,10 @@ export const mockGeographyData = [
     value: 377796,
   },
   {
+    id: "GRL",
+    value: 100,
+  },
+  {
     id: "GTM",
     value: 66890,
   },
@@ -893,7 +963,7 @@ export const mockGeographyData = [
     value: 478682,
   },
   {
-    id: "ISR",
+    id: "PALA",
     value: 963688,
   },
   {
@@ -1171,6 +1241,10 @@ export const mockGeographyData = [
   {
     id: "SVN",
     value: 728766,
+  },
+  {
+    id: "SWE",
+    value: 379669,
   },
   {
     id: "SWZ",

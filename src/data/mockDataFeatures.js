@@ -6783,7 +6783,7 @@ export const geoFeatures = {
       {
         type: "Feature",
         properties: {
-          name: "Israel",
+          name: "Palastine",
         },
         geometry: {
           type: "Polygon",
@@ -6815,7 +6815,7 @@ export const geoFeatures = {
             ],
           ],
         },
-        id: "ISR",
+        id: "PALA",
       },
       {
         type: "Feature",

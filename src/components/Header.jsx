@@ -1,8 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
+import PropTypes from "prop-types";
 import { Box, Typography, useTheme } from "@mui/material";
 import { tokens } from "./../theme";
-import PropTypes from "prop-types";
 const Header = ({ title, subtitle }) => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
