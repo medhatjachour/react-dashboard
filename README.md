@@ -20,7 +20,7 @@ A comprehensive web application built with React, Material-UI (MUI), Nivo Charts
 
 
 Clone this repository to your local machine.
-Install the required dependencies (e.g., PyQt, SQLAlchemy).
+Install the required dependencies
 Run the application using the provided script.
 
 ```bash
