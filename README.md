@@ -30,14 +30,6 @@ npm install
 npm run dev
 ```
 
-## Usage
-```
-Launch the application.
-Navigate through the different tabs (Sales, Store, Finance).
-Add, edit, or delete records as needed.
-Explore the features and functionalities.
-```
-
 ## Contributing
 
 Contributions are welcome! If you’d like to contribute to this project, just contact me
