@@ -5,7 +5,7 @@ import { formatDate } from "@fullcalendar/core";
 import dayGridPlugin from "@fullcalendar/daygrid";
 import timeGridPlugin from "@fullcalendar/timegrid";
 import interactionPlugin from "@fullcalendar/interaction";
-import listPlugin from "@fullcalendar/list";
+//import listPlugin from "@fullcalendar/list";
 import {
   Box,
   List,
@@ -95,8 +95,8 @@ const Calendar = () => {
             plugins={[
               dayGridPlugin,
               timeGridPlugin,
-              interactionPlugin,
-              listPlugin,
+              interactionPlugin
+               {/* listPlugin,*/}
             ]}
             headerToolbar={{
               left: "prev,next today",
